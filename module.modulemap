@@ -1,6 +1,6 @@
 module Clibmaxminddb [system] {
-  header "/usr/local/opt/libmaxminddb/include/maxminddb.h"
-  header "/usr/local/opt/libmaxminddb/include/maxminddb_config.h"
+  header "/usr/local/include/maxminddb.h"
+  header "/usr/local/include/maxminddb_config.h"
   link "maxminddb"
   export *
 }
